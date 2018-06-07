@@ -6,8 +6,8 @@ def valid_move?(board, index)
   return true
 end
 
-def invalid_position?()
-  
+def invalid_position?(board, index)
+  return index > board.length
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
